@@ -12,7 +12,9 @@
         <Accumulativeaward />
         <Award />
       </div>
-      <div class="flex-item p-4 grow">2</div>
+      <div class="flex-item p-4 grow">
+        <Flowtrend />
+      </div>
     </div>
   </div>
 </template>
@@ -22,6 +24,7 @@ import FlowPerformance from "@/module/FlowPerformance.vue";
 import Newcustomtrend from "@/module/Newcustomtrend.vue";
 import Accumulativeaward from "@/module/Accumulativeaward.vue";
 import Award from "@/module/Award.vue";
+import Flowtrend from "@/module/Flowtrend.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -42,7 +45,6 @@ $flex-item-basic: 400px;
   box-shadow: inset 0px 15px 10px -15px #fff;
 
   .flex-item {
-    height: 1000px;
     flex-basis: $flex-item-basic;
   }
 }
