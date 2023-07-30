@@ -1,8 +1,8 @@
-<!-- 各大区流水表现 -->
+<!-- 新增客户数 -->
 <template>
-  <CardModule titlePicUrl="/src/assets/img/battle-title-flow-performance.png">
+  <CardModule titlePicUrl="/src/assets/img/battle-title-newcustomtrend.png">
     <CardContainer v-for="item in 4" :key="item" :title="`北部${item}区`">
-      <CardItem v-for="it in 4" :key="it" />
+      <CardItem basis="0" v-for="it in 4" :key="it" />
     </CardContainer>
   </CardModule>
 </template>

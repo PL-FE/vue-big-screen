@@ -8,6 +8,9 @@
     <div class="flex-box flex-1 flex flex-wrap overflow-y-auto">
       <div class="flex-item p-4 grow-[2]">
         <FlowPerformance />
+        <Newcustomtrend />
+        <Accumulativeaward />
+        <Award />
       </div>
       <div class="flex-item p-4 grow">2</div>
     </div>
@@ -16,6 +19,9 @@
 
 <script setup>
 import FlowPerformance from "@/module/FlowPerformance.vue";
+import Newcustomtrend from "@/module/Newcustomtrend.vue";
+import Accumulativeaward from "@/module/Accumulativeaward.vue";
+import Award from "@/module/Award.vue";
 </script>
 
 <style lang="scss" scoped>
