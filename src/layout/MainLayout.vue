@@ -14,6 +14,7 @@
       </div>
       <div class="flex-item p-4 grow">
         <Flowtrend />
+        <Customperformance />
       </div>
     </div>
   </div>
@@ -24,7 +25,8 @@ import FlowPerformance from "@/module/FlowPerformance.vue";
 import Newcustomtrend from "@/module/Newcustomtrend.vue";
 import Accumulativeaward from "@/module/Accumulativeaward.vue";
 import Award from "@/module/Award.vue";
-import Flowtrend from "@/module/Flowtrend.vue";
+import Flowtrend from "@/module/Flowtrend/index.vue";
+import Customperformance from "@/module/Customperformance/index.vue";
 </script>
 
 <style lang="scss" scoped>
