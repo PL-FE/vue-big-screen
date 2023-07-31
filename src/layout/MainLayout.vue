@@ -2,8 +2,8 @@
 <template>
   <div class="page absolute top-0 bottom-0 left-0 right-0 flex flex-col">
     <div class="page-header p-4 flex justify-between">
-      <img src="@/assets/img/battle-title.png" />
-      <div class="page-header-data ml-4 flex-1"></div>
+      <img src="@/assets/img/battle-title.png" class="img-logo" />
+      <div class="page-header-data flex-1"></div>
     </div>
     <div class="flex-box flex-1 flex flex-wrap overflow-y-auto">
       <div class="flex-item p-4 grow-[2]">
@@ -33,8 +33,23 @@ import Customperformance from "@/module/PC/Customperformance/index.vue";
 .page {
   background-color: $battleColor;
   .page-header {
-    img {
-      height: 130px;
+    @media (max-width: 600px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .img-logo {
+        max-height: 130px;
+        width: 100%;
+        margin-right: 0px;
+      }
+      .page-header-data {
+        width: 100%;
+      }
+    }
+    .img-logo {
+      max-width: 230px;
+      width: 30%;
+      margin-right: 20px;
     }
     .page-header-data {
       border: 16px solid $battleSecondary;
