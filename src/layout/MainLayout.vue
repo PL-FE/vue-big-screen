@@ -21,12 +21,12 @@
 </template>
 
 <script setup>
-import FlowPerformance from "@/module/FlowPerformance.vue";
-import Newcustomtrend from "@/module/Newcustomtrend.vue";
-import Accumulativeaward from "@/module/Accumulativeaward.vue";
-import Award from "@/module/Award.vue";
-import Flowtrend from "@/module/Flowtrend/index.vue";
-import Customperformance from "@/module/Customperformance/index.vue";
+import FlowPerformance from "@/module/PC/FlowPerformance.vue";
+import Newcustomtrend from "@/module/PC/Newcustomtrend.vue";
+import Accumulativeaward from "@/module/PC/Accumulativeaward.vue";
+import Award from "@/module/PC/Award.vue";
+import Flowtrend from "@/module/PC/Flowtrend/index.vue";
+import Customperformance from "@/module/PC/Customperformance/index.vue";
 </script>
 
 <style lang="scss" scoped>

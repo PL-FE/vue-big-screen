@@ -7,5 +7,5 @@
 
 <script setup>
 import CardModule from "@/components/CardModule.vue";
-import Line from "@/module/Flowtrend/Line.vue";
+import Line from "@/module/PC/Flowtrend/Line.vue";
 </script>

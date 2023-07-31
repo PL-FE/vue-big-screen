@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-card grow m-2 basis-[200px]">
+  <div class="flex-card grow m-2">
     <h1 class="text-xl p-2 font-bold">{{ title }}</h1>
 
     <div class="flex flex-wrap p-1">

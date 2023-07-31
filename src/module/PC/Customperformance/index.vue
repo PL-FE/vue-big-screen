@@ -7,5 +7,5 @@
 
 <script setup>
 import CardModule from "@/components/CardModule.vue";
-import Line from "@/module/Customperformance/Line.vue";
+import Line from "@/module/PC/Customperformance/Line.vue";
 </script>
