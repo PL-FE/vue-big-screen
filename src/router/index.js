@@ -1,19 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import MainLayout from '@/layout/MainLayout.vue'
-import MainLayout3col from '@/layout/MainLayout3col.vue'
+import PCLayout from '@/layout/PCLayout.vue'
+import BigScreenLayout from '@/layout/BigScreenLayout.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/main',
-      name: 'MainLayout',
-      component: MainLayout
+      path: '/PC',
+      name: 'PCLayout',
+      component: PCLayout
     },
     {
       path: '/',
-      name: 'MainLayout3col',
-      component: MainLayout3col
+      name: 'BigScreenLayout',
+      component: BigScreenLayout
     },
     {
       path: '/about',
