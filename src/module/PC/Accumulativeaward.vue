@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import CardModule from "@/components/CardModule.vue";
+import CardModule from "@/components/PC/CardModule.vue";
 </script>
 
 <style scoped lang="scss">

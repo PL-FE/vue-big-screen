@@ -56,8 +56,8 @@
 </template>
 
 <script setup>
-import CardContainer from "@/components/CardContainer.vue";
-import CardModule from "@/components/CardModule.vue";
+import CardContainer from "@/components/PC/CardContainer.vue";
+import CardModule from "@/components/PC/CardModule.vue";
 </script>
 
 <style lang="scss" scoped>

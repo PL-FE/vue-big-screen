@@ -6,6 +6,6 @@
 </template>
 
 <script setup>
-import CardModule from "@/components/CardModule.vue";
+import CardModule from "@/components/PC/CardModule.vue";
 import Line from "@/module/PC/Flowtrend/Line.vue";
 </script>

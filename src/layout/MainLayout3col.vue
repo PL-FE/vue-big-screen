@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import FlowPerformance from "../module/bigScreen/FlowPerformance.vue";
+import FlowPerformance from "../module/bigScreen/FlowPerformance/index.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -22,6 +22,7 @@ $flex-item-basic: 300px;
   .flex-item {
     border: 1px solid green;
     flex: 1 1 $flex-item-basic;
+    height: 100%;
   }
 }
 
