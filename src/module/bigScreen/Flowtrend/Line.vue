@@ -1,10 +1,18 @@
 <template>
-  <v-chart class="chart bg-white" :option="option" autoresize />
+  <v-chart
+    class="chart bg-white"
+    :option="option"
+    autoresize
+    :initOptions="initOpts"
+  />
 </template>
 
 <script setup>
 import VChart from "vue-echarts";
 import { ref } from "vue";
+const initOpts = ref({
+  renderer: "svg",
+});
 const option = ref({
   xAxis: {
     type: "category",

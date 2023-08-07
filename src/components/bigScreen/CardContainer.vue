@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-card grow m-2">
+  <div class="flex-card grow m-2 flex flex-col">
     <h1 class="text-xl p-2 font-bold">{{ title }}</h1>
 
-    <div class="flex flex-wrap p-1">
+    <div class="flex flex-wrap p-1 flex-1">
       <slot></slot>
     </div>
   </div>
